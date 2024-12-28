@@ -17,6 +17,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
+      - run: npm install --package-lock-only
+
+      
       # environment setup
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v2
