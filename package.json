@@ -2,7 +2,7 @@
   "name": "pvlkvc.github.io",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "http-server": "npx http-server -p 9001",
     "dev": "vite",
