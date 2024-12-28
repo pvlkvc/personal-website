@@ -5,7 +5,8 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ "main" ]
+    branches:
+      - main
 
 jobs:
   deploy:
@@ -25,7 +26,7 @@ jobs:
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v2
         with:
-          node-version: '18.x'  # You can choose a specific Node.js version
+          node-version: '18.x'  
           cache: 'npm'
 
       # install dependencies
@@ -38,6 +39,6 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}  # Use GitHub's token for authentication
-          publish_dir: ./build  # Path to the directory where the built files are located (e.g., React app outputs to ./build)
+          github_token: ${{ secrets.GITHUB_TOKEN }} 
+          publish_dir: ./build  
 
