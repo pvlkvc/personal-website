@@ -1,9 +1,8 @@
 import '../css/Navbar.css'
+import { useNavigate } from 'react-router-dom';
 
 export default function Navbar() {
-  const renderSection = (sectionName) => {
-
-  }
+  const navigate = useNavigate();
 
   return (
     <>
@@ -16,8 +15,8 @@ export default function Navbar() {
           </div>
           
           <ul>
-            <li className="side-menu-item"><a onClick={}>home</a></li>
-            <li className="side-menu-item"><a>about me</a></li>
+            <li className="side-menu-item"><a onClick={() => navigate('/')}>home</a></li>
+            <li className="side-menu-item"><a onClick={() => navigate('/about')}>about me</a></li>
             <li className="side-menu-item"><a>fun stuff</a></li>
           </ul>
           

@@ -1,27 +1,17 @@
 import { useState } from 'react'
 import reactLogo from '../assets/react.svg'
 import viteLogo from '/vite.svg'
+import Router from './Router.jsx';
 import '../css/App.css'
-import Navbar from './Navbar.jsx'
 
 export default function App() {
   const [count, setCount] = useState(0)
-
-  const Sections = {
-    HOME: "Home",
-    ABOUT: "About"
-  }
-
-  const renderSection = (sectionName) => {
-
-  }
 
   return (
     <>
       <div className="main">
         <div className="row">
-          <Navbar />
-          <div id="body-area" className="main-vertical body-area"></div>
+          <Router />
         </div>
       </div>
 
