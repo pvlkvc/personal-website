@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Kirang+Haerang&family=Yomogi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Yomogi&display=swap');
+@import url('./Colors.css');
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Jost", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -16,15 +17,6 @@
 
   height: 100vh;
   box-sizing: border-box;
-
-  --primary-highlight: #ff3b3f;
-  --tertiary-color: #ffffff;
-  --primary-color: #efefef;
-  --secondary-color: #a9a9a9;
-  --secondary-highlight: #caebf2;
-  --shadow: #2f2f2f;
-  --color-transparent: #ffffff00;
-  --primary-text: #878787;
 }
 
 /*
