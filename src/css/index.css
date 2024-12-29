@@ -22,7 +22,7 @@ body {
   box-sizing: border-box;
 
   --primary-highlight: #ff3b3f;
-  --tertiary-color: white;
+  --tertiary-color: #ffffff;
   --primary-color: #efefef;
   --secondary-color: #a9a9a9;
   --secondary-highlight: #caebf2;
@@ -240,12 +240,16 @@ Main page - right side
 .horizontal-container {
     border: var(--primary-highlight) solid 4px;
     box-shadow: 15px 18px 0 0 var(--secondary-color);
+    background-color: var(--tertiary-color);
     height: 90%;
     max-height: 600px;
     margin: 50px 50px 50px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.horizontal-container img {
-    width: 100px;
-    height: auto;
+.horizontal-container p {
+    color: var(--secondary-color);
+    font-size: 30px
 }
