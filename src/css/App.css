@@ -1,9 +1,27 @@
-#root {
+body, #root {
   margin: 0 auto;
   padding: 0;
   text-align: center;
 }
 
+.column {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.main-vertical {
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+/*
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -39,3 +57,4 @@
 .read-the-docs {
   color: #888;
 }
+*/

@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Kirang+Haerang&family=Yomogi&display=swap');
+
+.side {
+    font-family: "Yomogi";
+    background-color: var(--tertiary-color);
+    max-width: 400px;
+    z-index: 10;
+}
+
+.side-masked-border {
+    padding: 0 30px 0 0;
+    -webkit-mask: conic-gradient(from -135deg at right,#0000,#000 1deg 89deg,#0000 90deg) 50%/100% 60px;
+    mask: conic-gradient(from -135deg at right,#0000,#000 1deg 89deg,#0000 90deg) 50%/100% 60px;
+}
+
+.side-copyright {
+    color: var(--secondary-color);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+/* SIDE - list */
+ul {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin-left: -40px;
+    margin-bottom: 100px;
+}
+
+.side-menu-item {
+    color: var(--primary-text);
+    cursor: pointer;
+    font-size: 2em;
+    margin: 0px 10px 10px 10px;
+    border: solid var(--secondary-color);
+    border-width: 0;
+    width: fit-content;
+}
+
+.side-menu-item a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    margin-left: 50%;
+    background: var(--primary-highlight);
+    transition: width 0.3s ease 0s, margin-left 0.3s ease 0s;
+    width: 0;
+}
+
+.side-menu-item a:hover:after { 
+    width: 100%; 
+    margin-left: 0%;
+    cursor: pointer;
+}
+
+  /* SIDE - header (initials) */
+
+.side-name-container {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 0;
+}
+
+.side-name-textbox {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.side-name-text {
+    word-wrap: normal;
+    color: var(--secondary-color);
+    font-size: 5em;
+    margin: 0;
+}
+
+.side-name-text-colored {
+    color: var(--primary-highlight);
+}

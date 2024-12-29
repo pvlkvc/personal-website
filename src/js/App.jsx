@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from '../assets/react.svg'
 import viteLogo from '/vite.svg'
 import '../css/App.css'
+import Navbar from './Navbar.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,23 +11,7 @@ function App() {
     <>
         <div className="main">
             <div className="row">
-                <div className="main-vertical side side-masked-border">
-                    <div className="column">
-                        <div className="side-name-container">
-                            <div className="side-name-textbox">
-                                <h1 className="side-name-text side-name-text-lower">A<span className="side-name-text-colored">P</span></h1>
-                            </div>
-                        </div>
-                        
-                        <ul>
-                            <li className="side-menu-item"><a>home</a></li>
-                            <li className="side-menu-item"><a>about me</a></li>
-                            <li className="side-menu-item"><a>fun stuff</a></li>
-                        </ul>
-                        
-                        <p className='side-copyright'><span className="copyright-symbol">©</span> 2024 Anna Pawlukiewicz </p>
-                    </div>
-                </div>
+                <Navbar />
                 <div className="main-vertical main-side-right">
                     <div className="horizontal-container">
                         <p>Oops! Nothing is here yet. The website is still being built!</p>
@@ -34,7 +19,7 @@ function App() {
                 </div>
             </div>
         </div>
-      
+
       {/*
       <div>
         <a href="https://vite.dev" target="_blank">
