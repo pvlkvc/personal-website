@@ -86,47 +86,35 @@ button:focus-visible {
 
 
 
-
-/*
-Main page - right side
-*/
-.main-side-right {
-    background-color: var(--primary-color);
-    flex-grow: 1;
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-}
-
 .horizontal-container {
-    border: var(--primary-highlight) solid 4px;
-    box-shadow: 15px 18px 0 0 var(--secondary-color);
-    background-color: var(--tertiary-color);
-    height: 90%;
-    max-height: 600px;
-    margin: 50px 50px 50px 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  border: var(--primary-highlight) solid 4px;
+  box-shadow: 15px 18px 0 0 var(--secondary-color);
+  background-color: var(--tertiary-color);
+  height: 90%;
+  max-height: 600px;
+  margin: 50px 50px 50px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .horizontal-container p {
-    color: var(--secondary-color);
-    font-size: 30px
+  color: var(--secondary-color);
+  font-size: 30px
 }
 
 /* LEFTOVER masked image */
 .side-photo-border img {
-    width: auto;
-    height: 300px;
-    background-color: var(--primary-color);
-    background-image: radial-gradient(var(--shadow) 5%, var(--shadow) 90%, var(--secondary-color) 100%);
+  width: auto;
+  height: 300px;
+  background-color: var(--primary-color);
+  background-image: radial-gradient(var(--shadow) 5%, var(--shadow) 90%, var(--secondary-color) 100%);
 }
 
 .side-photo-border {
-    mask: url("src/assets/mask_splash.svg") center;
-	-webkit-mask: url("src/assets/mask_splash.svg") center;
-    mask-repeat: no-repeat;
-    mask-size: 90%;
-    flex-grow: 0;
+  mask: url("src/assets/mask_splash.svg") center;
+-webkit-mask: url("src/assets/mask_splash.svg") center;
+  mask-repeat: no-repeat;
+  mask-size: 90%;
+  flex-grow: 0;
 }

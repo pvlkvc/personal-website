@@ -4,21 +4,26 @@ import viteLogo from '/vite.svg'
 import '../css/App.css'
 import Navbar from './Navbar.jsx'
 
-function App() {
+export default function App() {
   const [count, setCount] = useState(0)
+
+  const Sections = {
+    HOME: "Home",
+    ABOUT: "About"
+  }
+
+  const renderSection = (sectionName) => {
+
+  }
 
   return (
     <>
-        <div className="main">
-            <div className="row">
-                <Navbar />
-                <div className="main-vertical main-side-right">
-                    <div className="horizontal-container">
-                        <p>Oops! Nothing is here yet. The website is still being built!</p>
-                    </div>
-                </div>
-            </div>
+      <div className="main">
+        <div className="row">
+          <Navbar />
+          <div id="body-area" className="main-vertical body-area"></div>
         </div>
+      </div>
 
       {/*
       <div>
@@ -45,5 +50,3 @@ function App() {
     </>
   )
 }
-
-export default App
