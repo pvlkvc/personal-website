@@ -34,7 +34,9 @@ function App() {
                     </div>
                 </div>
                 <div className="main-vertical main-side-right">
-                    <div className="horizontal-container"><img src="/src/assets/mitch_face.png"></img></div>
+                    <div className="horizontal-container">
+                        <p>Oops! Nothing is here yet. The website is still being built!</p>
+                    </div>
                 </div>
             </div>
         </div>
