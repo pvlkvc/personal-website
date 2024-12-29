@@ -10,19 +10,13 @@ function App() {
     <>
         <div className="main">
             <div className="row">
-                <div className="main-vertical side">
+                <div className="main-vertical side side-masked-border">
                     <div className="column">
                         <div className="side-name-container">
                             <div className="side-name-textbox">
-                                <h1 className="side-name-text side-name-text-upper">ANNA</h1>
-                                <h1 className="side-name-text side-name-text-lower">PAWLUKIEWI<span className="side-name-text-colored">CZ</span></h1>
+                                <h1 className="side-name-text side-name-text-lower">A<span className="side-name-text-colored">P</span></h1>
                             </div>
                         </div>
-
-                        <div className="side-photo-border">
-                            <img src="/src/assets/mitch_face.png"></img>
-                        </div>
-
                         
                         <ul>
                             <li className="side-menu-item"><a>home</a></li>
