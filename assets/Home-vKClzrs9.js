@@ -1,0 +1,1 @@
+import{j as e}from"./index-CfINapiR.js";function n(){return e.jsx(e.Fragment,{children:e.jsx("div",{className:"horizontal-container",children:e.jsx("p",{children:"This website is still being built! Many things may not make sense."})})})}export{n as default};
