@@ -68,7 +68,7 @@ export default function About() {
 
           <li>an introvert
             <div className='about-li-box'>
-              I score 99% introvert on those personality tests. Will stay mostly quiet when there&apos;s a crowd but will also talk a lot in smaller groups.
+              I score 99% introvert on personality tests. Will stay mostly quiet when there&apos;s a crowd but will also talk a lot in smaller groups.
             </div>
           </li>
 
