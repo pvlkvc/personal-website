@@ -5,13 +5,19 @@ export default function About() {
   return (
     <>
       <div className="about-container">
-        
-        <h1>Anna Pawlukiewicz</h1>
-        <p>A recent graduate from Linnaeus University
-          <br />with a Bachelor Degree in Computer Science 
-          <br />specializing in <span className="text-highlighted">Software Technology</span></p>
-        <p>Planning to further pursue education <br />in the form of a Master Degree</p>
+        <h1>About</h1>
 
+        <div className='row'>
+          <div>
+            <p>A recent graduate from Linnaeus University
+              <br />with a Bachelor Degree in Computer Science 
+              <br />specializing in <span className="text-highlighted">Software Technology</span></p>
+            <p>Planning to further pursue education <br />in the form of a Master Degree</p>
+          </div>
+
+          <img className='about-profile-picture' src='https://github.com/pvlkvc/personal-website/blob/main/src/assets/profile-picture.jpg?raw=true'/>
+        </div>
+        
         <h2>IT skills</h2>
         <ul>
           <li>comfortable with <span className="text-highlighted">Java</span>,

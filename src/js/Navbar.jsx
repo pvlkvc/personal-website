@@ -16,8 +16,8 @@ export default function Navbar() {
           
           <ul>
             <li className="side-menu-item"><a onClick={() => navigate('/')}>home</a></li>
-            <li className="side-menu-item"><a onClick={() => navigate('/about')}>about me</a></li>
-            <li className="side-menu-item"><a>fun stuff</a></li>
+            <li className="side-menu-item"><a>about me</a></li>
+            <li className="side-menu-item"><a onClick={() => navigate('/portfolio')}>fun stuff</a></li>
           </ul>
           
           <p className='side-copyright'>© 2024 Anna Pawlukiewicz </p>

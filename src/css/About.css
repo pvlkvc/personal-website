@@ -121,3 +121,8 @@
 .doodles-word:hover {
   color: var(--primary-highlight);
 }
+
+.about-profile-picture {
+  height: 20em;
+  transform: scaleX(-1);
+}

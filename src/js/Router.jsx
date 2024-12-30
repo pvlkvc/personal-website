@@ -4,7 +4,7 @@ import Navbar from './Navbar.jsx';
 import Loading from './Loading.jsx';
 
 const HomePage = lazy(() => import('./Home.jsx'));
-const AboutPage = lazy(() => import('./About.jsx'));
+const PortfolioPage = lazy(() => import('./Portfolio.jsx'));
 
 export default function Router() {
   return (
@@ -13,7 +13,7 @@ export default function Router() {
       <Suspense fallback={<Loading />}>
         <Routes>
           <Route exact path="/" element={<HomePage />} />
-          <Route exact path="/about" element={<AboutPage />} />
+          <Route path="/portfolio" element={<PortfolioPage />} />
         </Routes>
       </Suspense>
     </BrowserRouter>
