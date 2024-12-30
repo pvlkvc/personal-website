@@ -1,10 +1,12 @@
 :root {
   --primary-highlight: #ff3b3f;
-  --tertiary-color: #ffffff;
+  --secondary-highlight: #caebf2;
   --primary-color: #efefef;
   --secondary-color: #a9a9a9;
-  --secondary-highlight: #caebf2;
+  --tertiary-color: #ffffff;
   --shadow: #2f2f2f;
-  --color-transparent: #ffffff00;
   --primary-text: #878787;
+  --primary-text-lighter: #acacac;
+  --primary-color-dark: #e0e0e0;
+  --secondary-color-light: #c3c3c3;
 }

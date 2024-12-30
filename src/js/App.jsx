@@ -10,7 +10,7 @@ export default function App() {
   return (
     <>
       <div className="main">
-        <div className="row">
+        <div className="row main-row">
           <Router />
         </div>
       </div>

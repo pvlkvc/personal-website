@@ -1,7 +1,6 @@
 body, #root {
   margin: 0 auto;
   padding: 0;
-  text-align: center;
 }
 
 .column {
@@ -27,6 +26,19 @@ body, #root {
   flex-direction: column;
   display: flex;
   justify-content: center;
+}
+
+.text-highlighted {
+  color: var(--primary-highlight);
+}
+
+.text-lighter {
+  color: var(--primary-text-lighter);
+}
+
+.text-hoverable-indicator {
+  border: dashed var(--primary-highlight);
+  border-width: 0px 0px 2px 0px;
 }
 
 /*

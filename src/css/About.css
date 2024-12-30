@@ -1,0 +1,123 @@
+@import url('./Colors.css');
+
+:root{
+  --icon-python: url('https://raw.githubusercontent.com/pvlkvc/personal-website/76dcb1a821ff8d9e574560a36133a9bf05f91778/src/assets/icons/icon_python.svg');
+  --icon-numpy: url('https://raw.githubusercontent.com/pvlkvc/personal-website/76dcb1a821ff8d9e574560a36133a9bf05f91778/src/assets/icons/icon_numpy.svg');
+  --icon-java: url('https://raw.githubusercontent.com/pvlkvc/personal-website/76dcb1a821ff8d9e574560a36133a9bf05f91778/src/assets/icons/icon_java.svg');
+  --icon-gradle: url('https://raw.githubusercontent.com/pvlkvc/personal-website/76dcb1a821ff8d9e574560a36133a9bf05f91778/src/assets/icons/icon%20gradle.svg');
+  --icon-html: url('https://raw.githubusercontent.com/pvlkvc/personal-website/76dcb1a821ff8d9e574560a36133a9bf05f91778/src/assets/icons/icon_html.svg');
+  --icon-css: url('https://raw.githubusercontent.com/pvlkvc/personal-website/5430c6d019ef38b4db361c828f663450b50b7406/src/assets/icons/icon_css.svg');
+  --icon-js: url('https://raw.githubusercontent.com/pvlkvc/personal-website/5430c6d019ef38b4db361c828f663450b50b7406/src/assets/icons/icon_js.svg');
+  --icon-nodejs: url('https://raw.githubusercontent.com/pvlkvc/personal-website/23a982a76af50d4b845b69cb5374e7ef7fcbc4e0/src/assets/icons/icon_nodejs.svg');
+  --icon-vite: url('https://raw.githubusercontent.com/pvlkvc/personal-website/23a982a76af50d4b845b69cb5374e7ef7fcbc4e0/src/assets/icons/icon_vite.svg');
+  --icon-react: url('https://raw.githubusercontent.com/pvlkvc/personal-website/23a982a76af50d4b845b69cb5374e7ef7fcbc4e0/src/assets/icons/icon_react.svg');
+  --icon-express: url('https://raw.githubusercontent.com/pvlkvc/personal-website/23a982a76af50d4b845b69cb5374e7ef7fcbc4e0/src/assets/icons/icon_express.svg');
+  --icon-mongodb: url('https://raw.githubusercontent.com/pvlkvc/personal-website/76dcb1a821ff8d9e574560a36133a9bf05f91778/src/assets/icons/icon_mongodb.svg');
+  --icon-mysql: url('https://raw.githubusercontent.com/pvlkvc/personal-website/76dcb1a821ff8d9e574560a36133a9bf05f91778/src/assets/icons/icon_mysql.svg');
+}
+
+.about-container {
+  margin: 20px 0 0 0;
+  padding: 25px 50px 25px 50px;
+  width: 100%;
+  background-color: var(--primary-color);
+  color: var(--shadow);
+  max-height: calc(85vh);
+  overflow-y: scroll;
+  mask-image: linear-gradient(to bottom, transparent 0, black calc(50px), black calc(100% - 50px), transparent 100%);
+}
+
+.about-container h1 {
+  margin: 0;
+  font-size: 5em;
+  font-weight: 400;
+  color: var(--shadow);
+}
+
+.about-container h2 {
+  margin: 0;
+  font-size: 2em;
+  font-weight: 600;
+  border-style: solid;
+  border-image: linear-gradient(
+    to bottom, 
+    red, 
+    rgba(0, 0, 0, 0)
+  ) 1 100%;
+  border-width: 0px 0px 2px 0;
+
+  border-image: 
+    linear-gradient(
+      to bottom, 
+      red, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+}
+
+.about-container ul {
+  list-style-type: "\27A4";
+  text-indent: 10px;
+  padding: 0 0 0 20px;
+}
+
+.about-container ul li {
+  font-size: 1.5em;
+  color: var(--primary-text);
+  font-weight: 600;
+}
+
+.about-container p {
+  margin: 20px 0 20px 0;
+  font-size: 2em;
+  font-weight: 600;
+  color: var(--primary-text);
+}
+
+.about-container .inline-icon {
+  height: 1em;
+  margin: 0px 6px 0px 6px;
+  transition: transform 0.1s ease 0s, padding 0.1s ease 0s;
+}
+
+.about-container .inline-icon:hover {
+  transform: scale(2);
+  padding: 0 0 17px 0;
+}
+
+.about-icon-box {
+  display: flex;
+  height: 1em;
+  padding: 10px 20px 10px 20px !important; 
+}
+
+.about-li-box {
+  border: solid var(--secondary-color-light) 2px;
+  border-radius: 20px;
+  background-color: var(--primary-color-dark);
+  padding: 5px 25px 5px 18px;
+  width: fit-content;
+  max-width: 600px;
+  line-break:normal;
+  text-indent: 0;
+  font-family: 'Yomogi';
+  color: var(--shadow);
+  margin: 0 0 14px 0;
+}
+
+.doodles-image {
+  height: 2px;
+  width: auto;
+  background-color: var(--secondary-highlight);
+  margin: 0;
+  border-radius: 100%;
+  visibility: hidden;
+}
+
+.doodles-word:hover .doodles-image{
+  visibility: visible;
+  transform: scale(100);
+}
+
+.doodles-word:hover {
+  color: var(--primary-highlight);
+}
