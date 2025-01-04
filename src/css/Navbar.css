@@ -1,11 +1,9 @@
-.side {
+.navbar-container {
   font-family: "Poppins";
   background-color: var(--tertiary-color);
-  width: 20%;
-  max-width: 250px;
-  z-index: 10;
+  width: 100%;
+  justify-content: space-between;
   position: sticky;
-  left: 0;
   top: 0;
 }
 
@@ -17,33 +15,32 @@
 }
 */
 
+/*
 .side-copyright {
   color: var(--secondary-color);
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+*/
 
 /* SIDE - list */
-.side ul {
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.side-menu-list {
   list-style-type: none;
-  margin-left: -40px;
-  margin-bottom: 100px;
+  padding-inline-end: 1em;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 .side-menu-item {
   color: var(--primary-text);
   cursor: pointer;
   font-size: 1.5em;
-  margin: 0px 10px 10px 10px;
+  margin: 0px 20px 6px 20px;
   border: solid var(--secondary-color);
   border-width: 0;
   width: fit-content;
   cursor: pointer;
+  float: left;
 }
 
 .side-menu-item a:after {
@@ -66,23 +63,13 @@
 /* SIDE - header (initials) */
 
 .side-logo-container {
-  margin-top: 40px;
-  width: 250px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex-grow: 0;
-  margin: 5px 0 0 -5px;
-}
-
-.side-logo-textbox {
-  text-align: left;
+  margin: 0 30px 0 30px;
 }
 
 .side-logo-text {
-  word-wrap: normal;
   color: var(--secondary-color);
-  font-size: 5em;
+  font-size: 2.3em;
   margin: 0;
   font-family: "Yomogi";
+  margin: 0 0 0 0;
 }

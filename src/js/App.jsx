@@ -1,6 +1,3 @@
-import { useState } from "react";
-import reactLogo from "../assets/react.svg";
-import viteLogo from "/vite.svg";
 import "../css/App.css";
 import Navbar from "./Navbar.jsx";
 import Home from "./Home.jsx";
@@ -10,7 +7,7 @@ import Portfolio from "./Portfolio.jsx";
 export default function App() {
   return (
     <>
-      <div className="row">
+      <div className="column">
         <Navbar />
         <div className="main column">
           <Home />
