@@ -1,8 +1,12 @@
 .side {
-    font-family: "Yomogi";
+    font-family: "Poppins";
     background-color: var(--tertiary-color);
-    max-width: 400px;
+    width: 20%;
+    max-width: 250px;
     z-index: 10;
+    position: sticky;
+    left: 0;
+    top: 0;
 }
 
 .side-masked-border {
@@ -31,7 +35,7 @@
 .side-menu-item {
     color: var(--primary-text);
     cursor: pointer;
-    font-size: 2em;
+    font-size: 1.5em;
     margin: 0px 10px 10px 10px;
     border: solid var(--secondary-color);
     border-width: 0;
@@ -58,26 +62,24 @@
 
   /* SIDE - header (initials) */
 
-.side-name-container {
+.side-logo-container {
   margin-top: 40px;
   width: 250px;
   display: flex;
   flex-direction: column;
   align-items: center;
   flex-grow: 0;
+  margin: 5px 0 0 -5px;
 }
 
-.side-name-textbox {
+.side-logo-textbox {
     text-align: left;
 }
 
-.side-name-text {
+.side-logo-text {
     word-wrap: normal;
     color: var(--secondary-color);
     font-size: 5em;
     margin: 0;
-}
-
-.side-name-text-colored {
-    color: var(--primary-highlight);
+    font-family: 'Yomogi';
 }

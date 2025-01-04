@@ -19,11 +19,12 @@
 .about-container {
   margin: 20px 0 0 0;
   padding: 25px 50px 25px 50px;
-  width: 100%;
   background-color: var(--primary-color);
   color: var(--shadow);
+  /*
   max-height: calc(85vh);
   overflow-y: scroll;
+  */
   mask-image: linear-gradient(to bottom, transparent 0, black calc(50px), black calc(100% - 50px), transparent 100%);
 }
 

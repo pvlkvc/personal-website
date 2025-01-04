@@ -1,4 +1,5 @@
-body, #root {
+body,
+#root {
   margin: 0 auto;
   padding: 0;
 }
@@ -15,17 +16,22 @@ body, #root {
   width: 100%;
 }
 
+.center-aligned {
+  align-items: center;
+}
+
 .main-vertical {
   height: 100vh;
   box-sizing: border-box;
 }
 
-.body-area {
+.main {
   background-color: var(--primary-color);
   flex-grow: 1;
   flex-direction: column;
   display: flex;
   justify-content: center;
+  box-sizing: border-box;
 }
 
 .text-highlighted {
@@ -39,6 +45,25 @@ body, #root {
 .text-hoverable-indicator {
   border: dashed var(--primary-highlight);
   border-width: 0px 0px 2px 0px;
+}
+
+/* Section Divider */
+
+.section-divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 1.5em;
+}
+
+.section-divider::before,
+.section-divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: var(--secondary-color);
+  margin: 0 10px;
 }
 
 /*
