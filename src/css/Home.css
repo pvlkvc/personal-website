@@ -9,7 +9,8 @@
   font-family: "Poppins";
   background-image: url("src/assets/mitch_face.png");
   background-repeat: no-repeat;
-  background-position: right 0 bottom 0;
+  background-position: right 0px bottom 0;
+  background-color: #caebf2;
 }
 
 .home-text-upper {

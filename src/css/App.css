@@ -32,6 +32,7 @@ body,
   display: flex;
   justify-content: center;
   box-sizing: border-box;
+  color: var(--shadow);
 }
 
 .text-highlighted {
@@ -64,6 +65,14 @@ body,
   height: 1px;
   background-color: var(--secondary-color);
   margin: 0 10px;
+}
+
+.main section {
+  background-color: var(--primary-color);
+}
+
+.section-container {
+  padding: 25px 50px 25px 50px;
 }
 
 /*

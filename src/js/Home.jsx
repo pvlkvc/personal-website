@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <>
       <section id="home">
-        <div className="column home-intro-container">
+        <div className="column section-container home-intro-container">
           <p className="home-text-upper">Hi! My name is</p>
           <div className="row center-aligned">
             <h1 className="home-text-middle">Anna Pawlukiewicz</h1>
