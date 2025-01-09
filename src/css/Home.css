@@ -1,16 +1,18 @@
 #home {
   width: 100%;
-  height: calc(100vh - 48px);
 }
 
 .home-intro-container {
-  padding: 150px 0 0 75px;
+  padding: 150px 0 100px 75px;
   color: var(--secondary-color);
   font-family: "Poppins";
-  background-image: url("src/assets/mitch_face.png");
-  background-repeat: no-repeat;
-  background-position: right 75px bottom 150px;
-  background-color: #caebf2;
+  background-color: var(--primary-color);
+  min-height: calc(100vh - 250px);
+  /*clip-path: polygon(0 0, 100% 0, 100% calc(100% - 80px), 0 100%);*/
+  border: 1px rgb(210, 210, 210) dashed;
+}
+
+.home-text-container {
 }
 
 .home-text-upper {

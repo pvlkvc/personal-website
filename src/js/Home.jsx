@@ -23,27 +23,29 @@ export default function Home() {
     <>
       <section id="home">
         <div className="column section-container home-intro-container">
-          <p className="home-text-upper">Hi! My name is</p>
-          <div className="row center-aligned">
-            <h1 className="home-text-middle">Anna Pawlukiewicz</h1>
-            <img
-              className="speaker-button"
-              onClick={handleAudioPlay}
-              src="src/assets/speaker-grey.svg"
-            />
-            <audio
-              ref={audioRef}
-              src="src/assets/pronunciation.mp3"
-              onPlay={() => setIsPlaying(true)}
-              onPause={() => setIsPlaying(false)}
-              onEnded={handleAudioEnd}
-            />
-          </div>
+          <div className="home-text-container">
+            <p className="home-text-upper">Hi! My name is</p>
+            <div className="row center-aligned">
+              <h1 className="home-text-middle">Anna Pawlukiewicz</h1>
+              <img
+                className="speaker-button"
+                onClick={handleAudioPlay}
+                src="src/assets/speaker-grey.svg"
+              />
+              <audio
+                ref={audioRef}
+                src="src/assets/pronunciation.mp3"
+                onPlay={() => setIsPlaying(true)}
+                onPause={() => setIsPlaying(false)}
+                onEnded={handleAudioEnd}
+              />
+            </div>
 
-          <p className="home-text-lower">
-            A computer science student.
-            <br />A coding enthusiast.
-          </p>
+            <p className="home-text-lower">
+              A computer science student.
+              <br />A coding enthusiast.
+            </p>
+          </div>
         </div>
       </section>
     </>

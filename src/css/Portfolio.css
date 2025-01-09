@@ -1,2 +1,18 @@
+.portfolio-section-connector {
+  height: 40px;
+  width: 60%;
+  border: var(--tertiary-highlight) solid;
+  border-width: 0 40px 0 40px;
+  box-sizing: border-box;
+  margin-right: auto;
+  margin-left: 20%;
+}
+
 .portfolio-container {
+  background-color: var(--tertiary-color);
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  width: 90vw;
+  margin-right: auto;
+  /*clip-path: polygon(0 80px, 100% 0, 100% 100%, 0 100%);*/
 }

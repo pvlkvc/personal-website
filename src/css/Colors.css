@@ -1,6 +1,7 @@
 :root {
   --primary-highlight: #ff3b3f;
-  --secondary-highlight: #caebf2;
+  --secondary-highlight: #caebf2; /* caebf2 */
+  --tertiary-highlight: #be8a58;
   --primary-color: #efefef;
   --secondary-color: #a9a9a9;
   --tertiary-color: #ffffff;
