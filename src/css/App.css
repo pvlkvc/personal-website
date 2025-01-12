@@ -42,6 +42,7 @@ body,
   align-items: center;
   box-sizing: border-box;
   color: var(--shadow);
+  gap: 20px;
 }
 
 .text-highlighted {

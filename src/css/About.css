@@ -7,7 +7,7 @@
   width: 90%;
   box-sizing: border-box;
   padding: 30px 50px 30px 30px;
-  border: 10px var(--secondary-color) dashed;
+  border: 5px var(--secondary-color) dashed;
   border-radius: 40px;
 }
 

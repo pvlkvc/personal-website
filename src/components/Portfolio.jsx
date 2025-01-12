@@ -5,7 +5,6 @@ import ProjectCard from "./ProjectCard";
 export default function Portfolio() {
   return (
     <>
-      <div className="portfolio-section-connector"></div>
       <section
         id="portfolio"
         className="row section-container portfolio-container"

@@ -1,13 +1,3 @@
-.portfolio-section-connector {
-  height: 40px;
-  width: 60%;
-  border: var(--tertiary-highlight) solid;
-  border-width: 0 40px 0 40px;
-  box-sizing: border-box;
-  margin-right: auto;
-  margin-left: 20%;
-}
-
 .portfolio-container {
   background-color: var(--tertiary-color);
   border-top-right-radius: 30px;
