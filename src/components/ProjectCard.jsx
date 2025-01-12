@@ -1,4 +1,4 @@
-export default function ProjectCard({ project }) {
+export default function ProjectCard({ project = {} }) {
   const { title, description, imageUrl, tools, link } = project;
 
   return (
