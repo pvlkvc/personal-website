@@ -1,6 +1,6 @@
 import "../css/Portfolio.css";
 import projectData from "../data/ProjectData";
-import ProjectCard from "./ProjectCard";
+import ProjectCard from "../components/ProjectCard";
 
 export default function Portfolio() {
   return (

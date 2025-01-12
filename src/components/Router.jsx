@@ -1,10 +1,10 @@
-import React, { Suspense, lazy } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Navbar from './Navbar.jsx';
-import Loading from './Loading.jsx';
+import React, { Suspense, lazy } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Navbar from "./Navbar.jsx";
+import Loading from "./Loading.jsx";
 
-const HomePage = lazy(() => import('./Home.jsx'));
-const PortfolioPage = lazy(() => import('./Portfolio.jsx'));
+const HomePage = lazy(() => import("./Home.jsx"));
+const PortfolioPage = lazy(() => import("../images/Portfolio.jsx"));
 
 export default function Router() {
   return (
