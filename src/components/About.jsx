@@ -4,14 +4,7 @@ export default function About() {
   return (
     <>
       <section id="about" className="column section-container about-container">
-        <div className="row">
-          <div className="about-picture-container">
-            <img
-              className="about-picture-image"
-              src="assets/images/profile-square.jpg"
-            />
-          </div>
-
+        <div className="row about-upper-row">
           <div className="column about-textbox">
             <h2>Who am I?</h2>
             <p>
@@ -28,7 +21,14 @@ export default function About() {
               coffee.
             </p>
           </div>
+          <div className="about-picture-container">
+            <img
+              className="about-picture-image"
+              src="assets/images/profile-cropped.jpg"
+            />
+          </div>
         </div>
+
         <div>Languages</div>
         <div>Libraries, Frameworks OR front/back</div>
         <div>Other meaningful skills: soft arch, leadership, management</div>
