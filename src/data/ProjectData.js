@@ -58,7 +58,7 @@ const projectData = [
     title: "Potential Project 4",
     description:
       "Description of Project 3 including information about what it is and what it was made with",
-    imageurl: "assets/images/project4.jpg",
+    imageUrl: "assets/images/project4.jpg",
     tools: [
       {
         name: "Javascript",
