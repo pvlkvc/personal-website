@@ -30,7 +30,7 @@ export default function Home() {
               <img
                 className="speaker-button"
                 onClick={handleAudioPlay}
-                src="src/assets/speaker-grey.svg"
+                src="public/assets/icons/speaker-grey.svg"
               />
               <audio
                 ref={audioRef}
