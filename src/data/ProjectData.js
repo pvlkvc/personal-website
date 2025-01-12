@@ -8,11 +8,11 @@ const projectData = [
     tools: [
       {
         name: "Python",
-        imageUrl: "public/assets/icons/python.svg",
+        imageUrl: "assets/icons/python.svg",
       },
       {
         name: "Numpy",
-        imageUrl: "public/assets/icons/numpy.svg",
+        imageUrl: "assets/icons/numpy.svg",
       },
     ],
     link: "link to project",
@@ -30,11 +30,11 @@ const projectData = [
       },
       {
         name: "React",
-        imageUrl: "public/assets/icons/react.svg",
+        imageUrl: "assets/icons/react.svg",
       },
       {
         name: "MongoDB",
-        imageUrl: "public/assets/icons/mongodb.svg",
+        imageUrl: "assets/icons/mongodb.svg",
       },
     ],
     link: "link to project",
@@ -48,11 +48,11 @@ const projectData = [
     tools: [
       {
         name: "Javascript",
-        imageUrl: "public/assets/icons/javascript.svg",
+        imageUrl: "assets/icons/javascript.svg",
       },
       {
         name: "React",
-        imageUrl: "public/assets/icons/react.svg",
+        imageUrl: "assets/icons/react.svg",
       },
     ],
     link: "link to project",
@@ -66,11 +66,11 @@ const projectData = [
     tools: [
       {
         name: "Javascript",
-        imageUrl: "public/assets/icons/javascript.svg",
+        imageUrl: "assets/icons/javascript.svg",
       },
       {
         name: "React",
-        imageUrl: "public/assets/icons/react.svg",
+        imageUrl: "assets/icons/react.svg",
       },
     ],
     link: "link to project",

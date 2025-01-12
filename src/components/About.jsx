@@ -8,7 +8,7 @@ export default function About() {
           <div className="about-picture-container">
             <img
               className="about-picture-image"
-              src="public/assets/images/profile-square.jpg"
+              src="assets/images/profile-square.jpg"
             />
           </div>
 
