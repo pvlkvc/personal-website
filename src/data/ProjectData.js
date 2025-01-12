@@ -26,7 +26,7 @@ const projectData = [
     tools: [
       {
         name: "Javascript",
-        imageUrl: "public/assets/icons/javascript.svg",
+        imageUrl: "assets/icons/javascript.svg",
       },
       {
         name: "React",
