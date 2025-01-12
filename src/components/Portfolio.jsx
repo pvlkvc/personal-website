@@ -7,11 +7,14 @@ export default function Portfolio() {
     <>
       <section
         id="portfolio"
-        className="row section-container portfolio-container"
+        className="column section-container portfolio-container"
       >
-        {projectData.map((project, index) => (
-          <ProjectCard key={index} project={project} />
-        ))}
+        <h1>My projects</h1>
+        <div className="projects-container">
+          {projectData.map((project, index) => (
+            <ProjectCard key={index} project={project} />
+          ))}
+        </div>
       </section>
     </>
   );

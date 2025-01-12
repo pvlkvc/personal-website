@@ -71,6 +71,23 @@ const projectData = [
     ],
     link: "link to project",
   },
+  {
+    title: "Potential Project 4",
+    description:
+      "Description of Project 3 including information about what it is and what it was made with",
+    imageUrl: "assets/images/project4.jpg",
+    tools: [
+      {
+        name: "Javascript",
+        imageUrl: "assets/icons/javascript.svg",
+      },
+      {
+        name: "React",
+        imageUrl: "assets/icons/react.svg",
+      },
+    ],
+    link: "link to project",
+  },
 ];
 
 export default projectData;

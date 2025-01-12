@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <>
       <div className="row-centered navbar-container ">
-        <div className="side-logo-container">
+        <div className="side-logo-container row-centered">
           <h1 className="side-logo-text">
             A<span className="text-highlighted">P</span>
           </h1>

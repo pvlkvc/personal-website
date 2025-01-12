@@ -1,11 +1,11 @@
 .navbar-container {
   font-family: "Poppins";
-  background-color: var(--tertiary-color);
   width: 100%;
   justify-content: space-between;
   position: sticky;
   top: 0;
   z-index: 10;
+  flex-basis: 100%;
 }
 
 /*
@@ -33,11 +33,11 @@
 }
 
 .side-menu-item {
-  color: var(--primary-text);
+  color: var(--neutral-7);
   cursor: pointer;
   font-size: 1.5em;
   margin: 0px 20px 6px 20px;
-  border: solid var(--secondary-color);
+  border: solid var(--primary-4);
   border-width: 0;
   width: fit-content;
   cursor: pointer;
@@ -45,13 +45,12 @@
 }
 
 .side-menu-item a:after {
-  background: none repeat scroll 0 0 transparent;
+  background: none repeat scroll 0 0 var(--primary-4);
   bottom: 0;
   content: "";
   display: block;
   height: 2px;
   margin-left: 50%;
-  background: var(--primary-highlight);
   transition: width 0.3s ease 0s, margin-left 0.3s ease 0s;
   width: 0;
 }
@@ -64,13 +63,12 @@
 /* SIDE - header (initials) */
 
 .side-logo-container {
-  margin: 0 30px 0 30px;
+  margin: 0px 30px 0 20px;
 }
 
 .side-logo-text {
-  color: var(--secondary-color);
+  color: var(--neutral-7);
   font-size: 2.3em;
-  margin: 0;
+  margin: 0 0 3px 0;
   font-family: "Yomogi";
-  margin: 0 0 0 0;
 }

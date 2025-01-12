@@ -4,9 +4,8 @@
 
 .home-intro-container {
   padding: 150px 0 100px 75px;
-  color: var(--secondary-color);
+  color: var(--neutral-7);
   font-family: "Poppins";
-  background-color: var(--primary-color);
   min-height: calc(100vh - 250px);
   /*clip-path: polygon(0 0, 100% 0, 100% calc(100% - 80px), 0 100%);*/
   border: 1px rgb(210, 210, 210) dashed;
@@ -23,7 +22,7 @@
 .home-text-middle {
   font-weight: 500;
   font-size: 4.5em;
-  color: var(--primary-highlight);
+  color: var(--primary-4);
   margin: 0;
 }
 

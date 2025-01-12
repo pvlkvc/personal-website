@@ -1,4 +1,36 @@
 :root {
+  --primary-0: #fff2f8;
+  --primary-1: #ffc3df;
+  --primary-2: #fb93cb;
+  --primary-3: #f261b7;
+  --primary-4: #e031a3;
+  --primary-5: #b21383;
+  --primary-6: #830666;
+  --primary-7: #550246;
+  --primary-8: #260122;
+  --highlight-0: #fefff2;
+  --highlight-1: #fdffc3;
+  --highlight-2: #fbf893;
+  --highlight-3: #f3e662;
+  --highlight-4: #e3c832;
+  --highlight-5: #b49213;
+  --highlight-6: #856306;
+  --highlight-7: #553a02;
+  --highlight-8: #261801;
+  --neutral-0: #fcfafb;
+  --neutral-1: #ebe4e7;
+  --neutral-2: #d9cfd4;
+  --neutral-3: #c7bac2;
+  --neutral-4: #b5a7b0;
+  --neutral-5: #91858e;
+  --neutral-6: #6e646b;
+  --neutral-7: #4a4349;
+  --neutral-8: #262226;
+  --primary-4-op60: #b4138499;
+  --primary-4-op90: #e133a4e6;
+}
+
+.old {
   --primary-highlight: #ff3b3f;
   --secondary-highlight: #caebf2; /* caebf2 */
   --tertiary-highlight: #be8a58;
@@ -11,4 +43,6 @@
   --primary-color-dark: #e0e0e0;
   --secondary-color-light: #c3c3c3;
   --temp: #d9d9d9;
+  --tertiary-highlight-op60: hsla(359, 61%, 38%, 0.6);
+  --tertiary-highlight-op90: hsla(359, 61%, 38%, 0.9);
 }
