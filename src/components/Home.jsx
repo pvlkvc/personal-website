@@ -34,7 +34,7 @@ export default function Home() {
               />
               <audio
                 ref={audioRef}
-                src="src/assets/pronunciation.mp3"
+                src="assets/audio/pronunciation.mp3"
                 onPlay={() => setIsPlaying(true)}
                 onPause={() => setIsPlaying(false)}
                 onEnded={handleAudioEnd}
