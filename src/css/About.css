@@ -6,24 +6,28 @@
   max-width: 1300px;
   width: 90%;
   box-sizing: border-box;
-  padding: 30px 50px 30px 30px;
-  border: 5px var(--secondary-color) dashed;
+  padding: 60px 30px 60px 30px;
+  align-items: center;
+}
+
+.about-upper-row {
+  gap: 3rem;
+  align-items: end;
 }
 
 .about-picture-container {
-  height: 30rem;
-  margin: 0 0 0 0;
+  height: 26rem;
+  margin: 0;
   /*clip-path: polygon(13% 0, 86% 0, 86% 96%, 13% 100%);*/
 }
 
 .about-picture-image {
   height: 100%;
-  border-radius: 17px;
   transform: rotate(0deg);
 }
 
 .about-textbox {
-  margin: 0 0 0 50px;
+  margin: 0 0 0 0;
   max-width: 700px;
   gap: 10px;
 }

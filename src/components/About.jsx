@@ -10,8 +10,8 @@ export default function About() {
             <p>
               A Master's student in computer science at the University of
               Gothenburg. I consider myself to be a quick learner and like a
-              good challenge as it can pose an opportunity to learn something
-              new.
+              good challenge as it can usually pose an opportunity to learn
+              something new.
             </p>
             <p></p>
             <p>
