@@ -3,39 +3,26 @@
 .about-container {
   background-color: var(--neutral-2);
   /*clip-path: polygon(0 80px, 100% 0, 100% calc(100% - 80px), 0 100%);*/
-  width: 90%;
+  width: 100%;
   box-sizing: border-box;
-  padding: 60px 30px 60px 30px;
+  padding: 1.5rem 5rem 1.5rem 5rem;
   align-items: center;
-}
-
-.about-upper-row {
-  gap: 3rem;
-  align-items: end;
-}
-
-.about-picture-container {
-  height: 26rem;
-  margin: 0;
-  border: 1px solid var(--neutral-4);
-  /*clip-path: polygon(13% 0, 86% 0, 86% 96%, 13% 100%);*/
-}
-
-.about-picture-image {
-  height: 100%;
-  transform: rotate(0deg);
+  gap: 1rem;
 }
 
 .about-textbox {
-  margin: 0 0 0 0;
-  max-width: 700px;
+  margin: 0;
   gap: 10px;
 }
 
-.about-textbox h2 {
-  font-size: 5rem;
+.about-container h2 {
+  font-size: 3rem;
   margin: 0;
   text-align: center;
+}
+
+.about-lower-row {
+  gap: 4rem;
 }
 
 .about-textbox p {
@@ -43,4 +30,10 @@
   text-align: justify;
   text-justify: distribute;
   margin: 0;
+}
+
+.favorite-tools-container {
+  background-color: var(--neutral-3);
+  border-radius: 1rem;
+  padding: 1rem;
 }
