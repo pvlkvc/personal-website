@@ -20,6 +20,12 @@ export default function About() {
               playing video games, binge-reading webtoons, or experimenting with
               coffee.
             </p>
+            <p>
+              You can reach me at{" "}
+              <span className="text-highlighted">
+                annapawlukiewicz.contact@gmail.com
+              </span>
+            </p>
           </div>
           <div className="favorite-tools-container">
             <div>Languages</div>
