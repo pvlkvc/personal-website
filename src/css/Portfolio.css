@@ -23,9 +23,8 @@
   display: flex;
   flex-wrap: wrap;
   box-sizing: border-box;
-  padding: 0 4rem 0 4rem;
-  gap: 1rem;
-  row-gap: 1rem;
+  padding: 0 0 0 0;
+  row-gap: 30px;
 }
 
 .project-card-container {
@@ -33,8 +32,9 @@
   background-size: cover;
   background-position: center;
   box-sizing: border-box;
-  width: 25rem;
-  height: 25rem;
+  width: calc((100% / 3) - 40px);
+  height: calc((calc(100vw / 12 * 9.5) / 3) - 40px);
+  margin: 0 0 0 30px;
 }
 
 .project-card {

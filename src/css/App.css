@@ -68,7 +68,6 @@ body,
 }
 
 .main section {
-  margin-left: calc(100vw / 12 * 2, 5);
 }
 
 .section-container {
