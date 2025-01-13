@@ -26,8 +26,8 @@
   --neutral-6: #6e646b;
   --neutral-7: #4a4349;
   --neutral-8: #262226;
-  --primary-4-op60: #b4138499;
-  --primary-4-op90: #e133a4e6;
+  --primary-4-op60: hsla(321, 74%, 54%, 0.82);
+  --primary-4-op90: hsla(321, 74%, 54%, 0.952);
 }
 
 .old {

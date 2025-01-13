@@ -7,14 +7,16 @@ export default function ProjectCard({ project = {} }) {
         className="project-card-container"
         style={{ backgroundImage: `url(${imageUrl})` }}
       >
-        <div className="project-card">
+        <div className="column project-card">
           <h2>{title}</h2>
           <p>{description}</p>
-          {tools.map((tool, index) => (
-            <div key={index} className="project-tool-container">
-              <img className="project-tool-image" src={tool.imageUrl} />
-            </div>
-          ))}
+          <div className="row tools-row">
+            {tools.map((tool, index) => (
+              <div key={index} className="tool-container">
+                <img className="tool-image" src={tool.imageUrl} />
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </>

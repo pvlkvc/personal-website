@@ -2,7 +2,7 @@ const projectData = [
   {
     title: "Potential Project 1",
     description:
-      "Description of Project 1 including information about what it is and what it was made with",
+      "Description of Project 1 including information about what it is and what it was made with; description should describe things :)",
     imageUrl: "assets/images/project1.jpg",
     tools: [
       {
