@@ -76,7 +76,7 @@
   border-radius: 10rem;
   background-color: var(--primary-5);
   box-sizing: border-box;
-  background-image: url("/images/profile-cropped.png"),
+  background-image: url("/assets/images/profile-cropped.png"),
     linear-gradient(340deg, var(--primary-7) 0, var(--primary-5) 100%);
   background-size: cover;
   background-repeat: no-repeat;
