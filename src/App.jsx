@@ -7,7 +7,7 @@ import Portfolio from "./components/Portfolio.jsx";
 export default function App() {
   return (
     <>
-      <div className="column">
+      <div className="row">
         <Navbar />
         <div className="main column">
           <Home />
