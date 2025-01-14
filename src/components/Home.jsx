@@ -47,30 +47,29 @@ export default function Home() {
   return (
     <>
       <section id="home" className="shared-col-1">
-        <div ref={vantaRef} className="column section home shared-col-1">
-          <div className="home-text-container">
-            <p className="home-text-upper">Hi! My name is</p>
-            <div className="row center-aligned">
-              <h1 className="home-text-middle">Anna Pawlukiewicz</h1>
-              <img
-                className="speaker-button"
-                onClick={handleAudioPlay}
-                src="assets/icons/speaker-grey.svg"
-              />
-              <audio
-                ref={audioRef}
-                src="assets/audio/pronunciation.mp3"
-                onPlay={() => setIsPlaying(true)}
-                onPause={() => setIsPlaying(false)}
-                onEnded={handleAudioEnd}
-              />
-            </div>
-
-            <p className="home-text-lower">
-              A computer science student.
-              <br />A coding enthusiast.
-            </p>
+        <div
+          ref={vantaRef}
+          className="column-centered section home shared-col-1"
+        >
+          <h2>Hi! My name is</h2>
+          <div className="row-centered">
+            <h1 className="text-highlighted">Anna Pawlukiewicz</h1>
+            <img
+              className="speaker-button"
+              onClick={handleAudioPlay}
+              src="assets/icons/speaker-grey.svg"
+            />
+            <audio
+              ref={audioRef}
+              src="assets/audio/pronunciation.mp3"
+              onPlay={() => setIsPlaying(true)}
+              onPause={() => setIsPlaying(false)}
+              onEnded={handleAudioEnd}
+            />
           </div>
+
+          <h2>A computer science student</h2>
+          <h2>A coding enthusiast</h2>
         </div>
       </section>
     </>
