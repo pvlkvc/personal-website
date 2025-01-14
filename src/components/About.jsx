@@ -3,10 +3,7 @@ import "../css/About.css";
 export default function About() {
   return (
     <>
-      <section
-        id="about"
-        className="column section-container about large-col-1"
-      >
+      <section id="about" className="column section about large-col-1">
         <h2>Who am I?</h2>
         <div className="row xlarge-col-1 large-col-1">
           <div className="column about-textbox xlarge-col-075 large-col-1">

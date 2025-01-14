@@ -46,19 +46,9 @@ body,
   flex-wrap: wrap;
 }
 
-.center-aligned {
-  align-items: center;
-}
-
-.main-vertical {
-  box-sizing: border-box;
-}
-
 .main {
   align-items: center;
-  box-sizing: border-box;
   color: var(--neutral-7);
-  gap: 20px;
   flex-grow: 2;
 }
 
@@ -78,7 +68,7 @@ body,
 .main section {
 }
 
-.section-container {
+.section {
 }
 
 /*
@@ -118,6 +108,11 @@ body,
   color: #888;
 }
 */
+
+/* Responsiveness: shared */
+.shared-col-1 {
+  width: 100%;
+}
 
 /* Responsiveness: large screens */
 @media (min-width: 1200px) {

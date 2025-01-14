@@ -1,11 +1,10 @@
-.home-intro-container {
-  box-sizing: border-box;
+.home {
   padding: 150px 0 100px 75px;
   color: var(--neutral-7);
   font-family: "Poppins";
-  min-height: calc(100vh - 250px);
   /*clip-path: polygon(0 0, 100% 0, 100% calc(100% - 80px), 0 100%);*/
   border: 1px rgb(210, 210, 210) dashed;
+  height: 100vh;
 }
 
 .home-text-container {

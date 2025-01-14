@@ -8,7 +8,7 @@ export default function ProjectCard({ project = {} }) {
           className="project-card-container"
           style={{ backgroundImage: `url(${imageUrl})` }}
         >
-          <div className="column project-card xlarge-col-1 large-col-1">
+          <div className="column project-card shared-col-1">
             <h2>{title}</h2>
             <p>{description}</p>
             <div className="row tools-row">
