@@ -16,7 +16,7 @@
 
 .hamburger-button {
   background-color: var(--neutral-1);
-  border-radius: 50px;
+  border-radius: 20px;
   transition: 1s;
   cursor: pointer;
   align-items: center;
@@ -24,21 +24,28 @@
   aspect-ratio: 1/1;
 }
 
+.hamburger-button + .hamburger-button {
+  margin: 5px 0 0 0;
+}
+
 .hamburger-button:hover {
   filter: brightness(0.9);
 }
 
 .hamburger-button img {
-  width: 50px;
+  width: 40px;
 }
 
 .hamburger-wrapper {
   margin: 10px;
   transition: 1s;
   overflow: hidden;
-  background-color: aqua;
-  min-height: 120px;
+  background-color: var(--neutral-1);
+  border: 1px solid var(--neutral-2);
+  min-height: 84px;
   border-radius: 20px;
+  padding: 5px;
+  flex-wrap: nowrap;
 }
 
 /* SIDE - list */
