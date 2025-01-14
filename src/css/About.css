@@ -3,26 +3,18 @@
 .about {
   background-color: var(--neutral-2);
   /*clip-path: polygon(0 80px, 100% 0, 100% calc(100% - 80px), 0 100%);*/
-  padding: 1.5rem 5rem 1.5rem 5rem;
+  padding: 1.5rem 2rem 1.5rem 2rem;
   align-items: center;
   gap: 1rem;
 }
 
 .about-textbox {
-  padding: 0 1rem 0 0;
   gap: 10px;
 }
 
 .about h2 {
   margin: 0;
   text-align: center;
-}
-
-.about-textbox p {
-  font-size: 1.2em;
-  text-align: justify;
-  text-justify: distribute;
-  margin: 0;
 }
 
 .favorite-tools-container {
