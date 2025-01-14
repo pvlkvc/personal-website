@@ -13,7 +13,7 @@ export default function Navbar() {
   return (
     <>
       <div className="column navbar large-navbar medium-small-navbar">
-        <div className="column navbar-horizontal-wrapper">
+        <div className="column navbar-wrapper">
           <div className="side-image-container"></div>
           <ul className="column-centered side-menu-list">
             <li className="side-menu-item">

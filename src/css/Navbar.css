@@ -5,13 +5,14 @@
   z-index: 10;
 }
 
-.navbar-horizontal-wrapper {
+.navbar-wrapper {
   align-items: center;
   padding: 2rem 0 1.5rem 0;
   gap: 3rem;
   border: solid var(--neutral-2);
   border-width: 0 1px 0 0;
   background-color: var(--neutral-1);
+  height: 100%;
 }
 
 .hamburger-button {
@@ -129,7 +130,7 @@
     display: none;
   }
 
-  .navbar-vertical-wrapper {
+  .hamburger-wrapper {
     display: none;
   }
 }
@@ -140,7 +141,7 @@
     right: 0;
   }
 
-  .navbar-horizontal-wrapper {
+  .navbar-wrapper {
     display: none;
   }
 
