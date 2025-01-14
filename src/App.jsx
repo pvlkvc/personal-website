@@ -9,7 +9,7 @@ export default function App() {
     <>
       <div className="row">
         <Navbar />
-        <div className="main column">
+        <div className="column main xlarge-main large-main medium-main">
           <Home />
           <About />
           <Portfolio />

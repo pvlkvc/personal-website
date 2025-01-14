@@ -4,7 +4,7 @@ import "../css/Navbar.css";
 export default function Navbar() {
   return (
     <>
-      <div className="column navbar-container ">
+      <div className="column navbar large-navbar medium-small-navbar">
         <div className="side-image-container">
           {/*
           <h1 className="side-logo-text">

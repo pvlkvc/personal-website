@@ -1,8 +1,5 @@
-#home {
-  width: 100%;
-}
-
 .home-intro-container {
+  box-sizing: border-box;
   padding: 150px 0 100px 75px;
   color: var(--neutral-7);
   font-family: "Poppins";

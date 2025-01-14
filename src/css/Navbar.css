@@ -1,7 +1,6 @@
-.navbar-container {
+.navbar {
   font-family: "Poppins";
   height: 100%;
-  width: calc(100vw / 12 * 2.5);
   align-items: center;
   position: fixed;
   border: solid var(--neutral-2);
@@ -9,6 +8,7 @@
   background-color: var(--neutral-1);
   padding: 2rem 0 1.5rem 0;
   gap: 3rem;
+  box-sizing: border-box;
 }
 
 /*
@@ -96,3 +96,19 @@
   font-family: "Yomogi";
 }
 */
+
+/* Responsiveness: laptops, desktops */
+@media (min-width: 992px) {
+  .large-navbar {
+    width: calc(100vw / 12 * 2.5);
+    height: 100%;
+  }
+}
+
+/* Responsiveness: tablets, phones */
+@media (max-width: 992px) {
+  .medium-small-navbar {
+    width: 100%;
+    height: calc(100vh / 12 * 2.5);
+  }
+}

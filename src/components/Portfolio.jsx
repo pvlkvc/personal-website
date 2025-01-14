@@ -10,7 +10,7 @@ export default function Portfolio() {
         className="column section-container portfolio-container"
       >
         <h1>My projects</h1>
-        <div className="projects-container">
+        <div className="projects-container xlarge-col-1 large-col-1">
           {projectData.map((project, index) => (
             <ProjectCard key={index} project={project} />
           ))}
