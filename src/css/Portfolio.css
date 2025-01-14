@@ -39,6 +39,7 @@
   transition: 0.25s;
   padding: 0.5rem;
   color: var(--neutral-8);
+  flex-wrap: nowrap;
 }
 
 .project-card:hover {
