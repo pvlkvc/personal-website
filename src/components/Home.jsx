@@ -23,21 +23,25 @@ export default function Home() {
   };
 
   useEffect(() => {
-    const vantaEffect = WAVES({
-      el: vantaRef.current,
-      mouseControls: true,
-      touchControls: true,
-      gyroControls: false,
-      minHeight: 200.0,
-      minWidth: 200.0,
-      scale: 1.0,
-      scaleMobile: 1.0,
-      color: 0xb5a7b0,
-      shininess: 0.0,
-      waveSpeed: 0.45,
-      zoom: 0.81,
-      THREE: window.THREE,
-    });
+    let vantaEffect = null;
+
+    if (!vantaEffect) {
+      vantaEffect = WAVES({
+        el: vantaRef.current,
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.0,
+        minWidth: 200.0,
+        scale: 1.0,
+        scaleMobile: 1.0,
+        color: 0xb5a7b0,
+        shininess: 0.0,
+        waveSpeed: 0.45,
+        zoom: 0.81,
+        THREE: window.THREE,
+      });
+    }
 
     return () => {
       if (vantaEffect) vantaEffect.destroy();
@@ -53,7 +57,9 @@ export default function Home() {
         >
           <h2>Hi! My name is</h2>
           <div className="row-centered">
-            <h1 className="text-highlighted">Anna Pawlukiewicz</h1>
+            <h1 onClick={handleAudioPlay} className="text-highlighted">
+              Anna Pawlukiewicz
+            </h1>
             <img
               className="speaker-button"
               onClick={handleAudioPlay}
