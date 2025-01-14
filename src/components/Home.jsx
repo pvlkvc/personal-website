@@ -57,7 +57,11 @@ export default function Home() {
         >
           <h2>Hi! My name is</h2>
           <div className="row-centered">
-            <h1 onClick={handleAudioPlay} className="text-highlighted">
+            <h1
+              onClick={handleAudioPlay}
+              className="text-highlighted"
+              style={{ userSelect: `none` }}
+            >
               Anna Pawlukiewicz
             </h1>
             <img
