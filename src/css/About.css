@@ -1,11 +1,15 @@
 @import url("./Colors.css");
 
 .about {
-  background-color: var(--neutral-2);
+  background-color: var(--neutral-1);
   /*clip-path: polygon(0 80px, 100% 0, 100% calc(100% - 80px), 0 100%);*/
   align-items: center;
   gap: 1rem;
   padding: 1.5rem 0 1.5rem 0;
+  border: solid var(--neutral-2);
+  border-width: 1px 0 1px 0;
+  box-shadow: 0 2px 2px 0 var(--neutral-2);
+  z-index: 2;
 }
 
 .about .profile-image {
@@ -15,6 +19,7 @@
 .about-textbox {
   gap: 10px;
   padding: 0 2rem 0 1rem;
+  font-size: 1.2rem !important;
 }
 
 .about h2 {
