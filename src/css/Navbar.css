@@ -92,17 +92,7 @@
   margin-left: 0%;
 }
 
-.profile-image {
-  height: 12rem;
-  width: 12rem;
-  border-radius: 10rem;
-  background-color: var(--primary-5);
-  box-sizing: border-box;
-  background-image: url("/assets/images/profile-cropped.png"),
-    linear-gradient(340deg, var(--primary-7) 0, var(--primary-5) 100%);
-  background-size: cover;
-  background-repeat: no-repeat;
-  border: 1px solid var(--neutral-7);
+.navbar .profile-image {
 }
 
 /* SIDE - header (initials)

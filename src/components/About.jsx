@@ -6,8 +6,10 @@ export default function About() {
       <section id="about" className="column-centered section about large-col-1">
         <h2>About me</h2>
         <div className="row-centered xlarge-col-1 large-col-1">
-          <div className="profile-image"></div>
-          <div className="column about-textbox xlarge-col-075 large-col-1">
+          <div className="row-centered medium-col-025 small-col-1">
+            <div className="profile-image"></div>
+          </div>
+          <div className="column about-textbox xlarge-col-075 large-col-1 medium-col-075 small-col-1">
             <p>
               A Master's student in computer science at the University of
               Gothenburg. I consider myself to be a quick learner and like a
