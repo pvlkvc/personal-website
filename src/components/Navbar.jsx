@@ -14,7 +14,7 @@ export default function Navbar() {
     <>
       <div className="column navbar large-navbar medium-small-navbar">
         <div className="column navbar-wrapper">
-          <div className="side-image-container"></div>
+          <div className="profile-image"></div>
           <ul className="column-centered side-menu-list">
             <li className="side-menu-item">
               <Link to="home" smooth duration={400}>

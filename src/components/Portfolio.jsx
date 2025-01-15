@@ -5,7 +5,7 @@ import ProjectCard from "./ProjectCard";
 export default function Portfolio() {
   return (
     <>
-      <section id="portfolio" className="column section portfolio-container">
+      <section id="portfolio" className="column section portfolio">
         <h1>My projects</h1>
         <div className="projects-container shared-col-1">
           {projectData.map((project, index) => (

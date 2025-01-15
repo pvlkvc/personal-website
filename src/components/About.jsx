@@ -4,8 +4,9 @@ export default function About() {
   return (
     <>
       <section id="about" className="column-centered section about large-col-1">
-        <h2>Who am I?</h2>
-        <div className="row xlarge-col-1 large-col-1">
+        <h2>About me</h2>
+        <div className="row-centered xlarge-col-1 large-col-1">
+          <div className="profile-image"></div>
           <div className="column about-textbox xlarge-col-075 large-col-1">
             <p>
               A Master's student in computer science at the University of
@@ -26,13 +27,6 @@ export default function About() {
                 annapawlukiewicz.contact@gmail.com
               </span>
             </p>
-          </div>
-          <div className="favorite-tools-container xlarge-col-025 large-col-1">
-            <div>Languages</div>
-            <div>Libraries, Frameworks OR front/back</div>
-            <div>
-              Other meaningful skills: soft arch, leadership, management
-            </div>
           </div>
         </div>
       </section>

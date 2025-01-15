@@ -8,6 +8,10 @@
   gap: 1rem;
 }
 
+.about .profile-image {
+  margin: 0 0 20px 0;
+}
+
 .about-textbox {
   gap: 10px;
 }
@@ -17,14 +21,11 @@
   text-align: center;
 }
 
-.favorite-tools-container {
-  background-color: var(--neutral-3);
-  border-radius: 1rem;
-  padding: 1rem;
-}
-
 /* Responsiveness: laptops, desktops */
 @media (min-width: 992px) {
+  .about .profile-image {
+    display: none;
+  }
 }
 
 /* Responsiveness: tablets, phones */

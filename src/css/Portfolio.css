@@ -1,22 +1,6 @@
-.portfolio-container {
+.portfolio {
   justify-items: center;
-  /*
-  background: linear-gradient(
-    to bottom,
-    var(--primary-2),
-    var(--primary-2) 10%,
-    transparent 10%,
-    transparent 100%
-  );
-  background-size: 100% 90px;
-  */
-  /*clip-path: polygon(0 80px, 100% 0, 100% 100%, 0 100%);*/
-}
-
-.portfolio-container h1 {
-  font-size: 4rem;
-  padding: 1rem 0 2rem 0;
-  text-align: center;
+  margin: 1rem 0 0 0;
 }
 
 .projects-container {
