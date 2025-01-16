@@ -16,7 +16,11 @@ export default function About() {
               good challenge as it can usually pose an opportunity to learn
               something new.
             </p>
-            <p></p>
+            <p>
+              Being a fresh graduate, I meddle with different techs while
+              looking for one to specialize in. Full stack, Java, Python, web,
+              databases, networks, etc.
+            </p>
             <p>
               While I stay busy with various projects, I also try to find some
               free time to recharge and unwind while engaging in my hobbies:
