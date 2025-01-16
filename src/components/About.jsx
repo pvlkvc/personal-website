@@ -26,7 +26,7 @@ export default function About() {
             <p>
               You can reach me at{" "}
               <span className="text-highlighted">
-                annapawlukiewicz.contact@gmail.com
+                annapawlukiewicz&#8203;.contact&#8203;@gmail.com
               </span>
             </p>
           </div>
