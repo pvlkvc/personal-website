@@ -51,6 +51,7 @@ body,
   align-items: center;
   color: var(--neutral-7);
   flex-grow: 2;
+  width: 100%;
 }
 
 .text-highlighted {
@@ -67,7 +68,7 @@ body,
 }
 
 .profile-image {
-  width: 12rem;
+  width: 80%;
   aspect-ratio: 1/1;
   border-radius: 100%;
   background-color: var(--primary-5);
@@ -143,6 +144,10 @@ p {
   margin: 0;
 }
 
+.no-transition {
+  transition: none !important;
+}
+
 /* Responsiveness: large screens */
 @media (min-width: 1200px) {
   .xlarge-col-3 {
@@ -158,8 +163,7 @@ p {
   }
 
   .xlarge-main {
-    padding: 0 0 0 calc(100vw / 12 * 2.5);
-    width: calc(100vw / 12 * 2.5);
+    padding: 0 0 0 calc(100vw / 12 * 0.9);
   }
 }
 
@@ -174,8 +178,7 @@ p {
   }
 
   .large-main {
-    padding: 0 0 0 calc(100vw / 12 * 2.5);
-    width: calc(100vw / 12 * 2.5);
+    padding: 0 0 0 calc(100vw / 12 * 0.9);
   }
 }
 
@@ -200,7 +203,6 @@ p {
   .medium-main {
     /* padding: calc(100vh / 12 * 1.5) 0 0 0; */
     padding: 0 0 0 0;
-    width: 100%;
   }
 }
 
