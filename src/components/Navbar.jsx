@@ -30,7 +30,6 @@ export default function Navbar() {
     <>
       <div className="column navbar large-navbar medium-small-navbar">
         <div className="profile-image"></div>
-
         <HamburgerMenu
           isOpen={isMenuOpen || isLargeScreen}
           toggleMenu={toggleMenu}
