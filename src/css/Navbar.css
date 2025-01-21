@@ -79,6 +79,7 @@
   .medium-small-navbar {
     right: 0;
     background-color: transparent;
+    box-shadow: none;
   }
 
   .medium-small-navbar .profile-image {
@@ -91,5 +92,10 @@
 
   .navbar-wrapper {
     margin: 10px;
+  }
+  /* Mozilla Fix */
+  .menu-button{
+    width: 70px;
+    height: 70px;
   }
 }
