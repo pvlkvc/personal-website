@@ -24,28 +24,30 @@ export default function Home() {
 
   useEffect(() => {
     let vantaEffect = null;
+    if (!(window.innerWidth < 768 || navigator.hardwareConcurrency < 4)) {
+      if (!vantaEffect) {
+        vantaEffect = WAVES({
+          el: vantaRef.current,
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          minHeight: 200.0,
+          minWidth: 200.0,
+          scale: 1.0,
+          scaleMobile: 1.0,
+          color: 0xb5a7b0,
+          shininess: 0.0,
+          waveSpeed: 0.45,
+          zoom: 0.81,
+          THREE: window.THREE,
+          fpsLimit: 30,
+        });
+      }
 
-    if (!vantaEffect) {
-      vantaEffect = WAVES({
-        el: vantaRef.current,
-        mouseControls: true,
-        touchControls: true,
-        gyroControls: false,
-        minHeight: 200.0,
-        minWidth: 200.0,
-        scale: 1.0,
-        scaleMobile: 1.0,
-        color: 0xb5a7b0,
-        shininess: 0.0,
-        waveSpeed: 0.45,
-        zoom: 0.81,
-        THREE: window.THREE,
-      });
+      return () => {
+        if (vantaEffect) vantaEffect.destroy();
+      };
     }
-
-    return () => {
-      if (vantaEffect) vantaEffect.destroy();
-    };
   }, []);
 
   return (
