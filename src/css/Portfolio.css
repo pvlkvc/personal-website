@@ -53,6 +53,11 @@
   height: 100%;
 }
 
+.no-projects {
+  margin: 10em 0 10em 0;
+  color: var(--neutral-4);
+}
+
 /* Responsiveness: laptops/desktops */
 @media (min-width: 992px) {
 }

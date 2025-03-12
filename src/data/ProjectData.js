@@ -1,4 +1,4 @@
-const projectData = [
+/* const projectData = [
   {
     title: "Potential Project 1",
     description:
@@ -89,5 +89,8 @@ const projectData = [
     link: "link to project",
   },
 ];
+
+*/
+const projectData = [];
 
 export default projectData;
