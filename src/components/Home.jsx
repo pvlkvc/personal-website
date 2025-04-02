@@ -24,7 +24,7 @@ export default function Home() {
 
   useEffect(() => {
     let vantaEffect = null;
-    if (!(window.innerWidth < 768 || navigator.hardwareConcurrency < 4)) {
+    if (!(navigator.hardwareConcurrency < 4)) {
       if (!vantaEffect) {
         vantaEffect = WAVES({
           el: vantaRef.current,
